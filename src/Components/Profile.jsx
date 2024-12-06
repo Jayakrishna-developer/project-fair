@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-import { updateUserProfileAPI } from "../../service/allAPi";
+import { updateUserProfileAPI } from "../../service/allAPI";
 
 function Profile() {
   const [open, setOpen] = useState(false);
