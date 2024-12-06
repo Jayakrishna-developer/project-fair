@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Addproject from './Addproject'
-import { deleteUserProjectAPI, getUserProjectAPI } from '../../service/allAPi'
+import { deleteUserProjectAPI, getUserProjectAPI } from '../../service/allAPI'
 import { addProjectResponseContext, editProjectResponseContext } from './ContextAPI/ContextShare';
 import EditProject from './EditProject';
 import { ToastContainer, toast } from "react-toastify";
