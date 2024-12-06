@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import titleImage from "../assets/images/developer.gif";
 import ProjectCard from "../Components/ProjectCard";
 import "./Home.css";
-import { addProjectAPI, getHomeProjectAPI } from "../../service/allAPi";
+import { addProjectAPI, getHomeProjectAPI } from "../../service/allAPI";
   import { ToastContainer, toast } from "react-toastify";
   import "react-toastify/dist/ReactToastify.css";
 
